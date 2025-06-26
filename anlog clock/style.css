@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1F2937;
+}
+#clockcontainer{
+    position: relative;
+    margin: auto;
+    /* border: 2px solid green; */
+    /* background-color: red; */
+    height: 40vw;
+    width: 40vw;
+    background: url(./png-transparent-analog-clock-clock-seiko-watch-case-astron-jam-angle-white-furniture-thumbnail.png) no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    
+}
+
+#hours,#minuts,#second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+
+#hours{
+    width: 1%;
+    height: 28%;
+    top: 18%;
+    left: 49.5%;
+    transform-origin: bottom;
+    
+
+}
+
+#minuts{
+    width: 1%;
+    height: 27%;
+    top: 18%;
+    left: 49.5%;
+    opacity: 0.8;
+     transform-origin: bottom;
+}
+
+#second{
+    width: 1%;
+    height: 28%;
+    top: 18%;
+    left: 49.5%;
+    opacity: 0.6;
+    transform-origin: bottom;
+}
+
+#point{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 2.6rem;
+    border: 1px solid black;
+    top: 18%;
+    background-color: black;
+    margin-left: 1rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    color: #D1D5DB;
+}
+
+.text{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    
+}
